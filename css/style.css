@@ -1,0 +1,28 @@
+.container {
+    background-color:#9ebeac;
+    padding: 1rem;
+}
+
+#navbar-text {
+    color: #57595a;
+    font-style:oblique;
+
+}
+
+h1{
+    color: #57595a;
+    font-style: oblique;
+}
+p {
+    color: #ffff;
+    font-style: oblique;
+}
+
+#footer {
+    color: #57595a;
+    background-color:#f8f9fa ;
+    font-style: oblique;
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+}
+
