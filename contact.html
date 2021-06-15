@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="bg">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Въздействието на наркотиците върху човека</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -52,95 +49,63 @@
     </header>
     <main class="main">
       <div class="container">
-        <h1>Галерия</h1>
+        <h1>Формуляр за връзка</h1>
         <p></p>
       </div>
-      <!-- Gallery -->
-<div class="row">
-    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-      <img
-        src="images/marijuana.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Марихуана в състояние на употреба</p>
-  
-      <img
-        src="images/extasy.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Амфетамини (екстази)</p>
-
-     
-      <img
-      src="images/lsd.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt=""
-    />
-    <p>ЛСД</p>
-    </div>
-  
-    <div class="col-lg-4 mb-4 mb-lg-0">
-      <img
-        src="images/coaine.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Кокаин</p>
-
-  
-      <img
-        src="images/heroin.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Хероин</p>
-
-      <img
-        src="images/weed.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Марихуана</p>
-
-    </div>
-  
-    <div class="col-lg-4 mb-4 mb-lg-0">
-      <img
-        src="images/inhalanti.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Вид инхалант</p>
-
-      <img
-        src="images/gubi.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Гъби</p>
-      <img
-        src="images/anaboli.jpg"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt=""
-      />
-      <p>Анаболи</p>
-
-
-
-    </div>
-  </div>
-   <!-- Gallery -->
-    </main>
-    <footer id="footer">
-        <div> 
-            <p class="text-center">All rights reserved &copy; 2021</p>
+      <form id="contactForm" class="was-validated"></form>
+      <div class="form-group">
+        <label for="name">Име</label>
+        <input type="text" name="name" class="form-control" required>
+        <div class="invalid-feedback">
+          Моля, въведете вашето име.
         </div>
-    </footer>
-    <script src="js/main.js"></script>
-</div>
-  </body>
-</div>
-</html>
-</div>
+        <div class="valid-feedback">
+          Ок.
+        </div>
+
+        <div class="form-group">
+          <label for="email">Имейл</label>
+          <input type="text" name="email" class="form-control" required>
+          <div class="invalid-feedback">
+            Моля, въведете вашият Имейл адрес за връзка.
+          </div>
+          <div class="valid-feedback">
+            Ок.
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон за връзка</label>
+            <input 
+            type="tel" 
+            name="phone"
+            pattern="[0-9]{3} [0-9]{3} [0-9]{4}" 
+            class="form-control" required>
+            <div class="invalid-feedback">
+              Моля, въведете вашият телефонен във формат: ХХХ ХХХ ХХХХ. 
+              Пример 088 123 4567.
+            </div>
+            <div class="valid-feedback">
+              Ок.
+            </div>
+            <div class="form-group">
+              <label for="message">Съобщение</label>
+              <textarea class="form-control" minlength="20" maxlength="300" required></textarea>
+              <div class="invalid-feedback">
+                Моля, въведете съобщение между 20 и 300 символа.
+              </div>
+              <div class="valid-feedback">
+                Ок.
+              </div>
+              <button type="submit" class="btn btn-primary">Изпрати</button> 
+            </main>
+            <footer id="footer">
+                <div> 
+                    <p class="text-center">All rights reserved &copy; 2021</p>
+                </div>
+            </footer>
+            <script src="js/main.js"></script>
+        </div>
+          </body>
+        </div>
+        </html>
+        </div>
+   
