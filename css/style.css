@@ -17,6 +17,19 @@ p {
     font-style: oblique;
 }
 
+.navbar-brand {
+    white-space: pre-wrap;
+}
+
+.form-group {
+    color:#ffffff;
+    font-style: oblique;
+}
+
+.btn {
+ margin-bottom: 1rem;
+}
+
  /* footer */
 #footer .text-center {
     color: #57595a;
