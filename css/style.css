@@ -2,33 +2,140 @@
     background-color:#9ebeac;
 }
 
+h1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #57595a;
+    font-style: oblique;
+}
+
+p {
+    color: #ffffff;
+    font-style: oblique;
+}
+
+/*h2*/
+h2 {
+    color: #202020;
+    font-size: 23px;
+    font-style:oblique;
+}
+
+h2.inbg {
+    color: #202020;
+    font-size: 23px;
+    font-style:oblique;
+    padding-top: 2rem;
+}
+/*h3*/
+h3 {
+    color: rgb(69, 69, 105);
+    font-size: 25px;
+    font-style: oblique;
+    padding-bottom: 1rem;
+}
+h3.wtardrgs {
+    color: rgb(69, 69, 105);
+    font-size: 25px;
+    font-style: oblique;
+    padding-bottom: 2rem;
+    padding-top:unset ;
+}
+h3.anbl {color: rgb(69, 69, 105);
+    font-size: 25px;
+    font-style: oblique;
+    padding-bottom: 3rem;
+}
+
+/*h4*/
+h4 {
+    color:#ffffff;
+    font-style: oblique;
+    font-size: 21px;
+    text-align: center;
+}
+h4.button-link {
+    color:#ffffff;
+    font-style: oblique;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+h4.drugs-bg {
+    color:#ffffff;
+    font-style: oblique;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    white-space: pre-wrap;
+}
+
+/* h5 */
+
+/*h6*/
+h6 {
+    color: #273b2f;
+    font-style: oblique;
+    font-size: 19px;
+    padding-bottom: 3rem;
+}
+
+h6.anabolic {
+    color: #273b2f;
+    font-style: oblique;
+    font-size: 19px;
+    padding-bottom: unset;
+}
+/* navbar*/
+
 #navbar-text {
     color: #57595a;
     font-style:oblique;
 
 }
 
-h1{
-    color: #57595a;
-    font-style: oblique;
-}
-p {
-    color: #ffffff;
-    font-style: oblique;
-}
-
 .navbar-brand {
     white-space: pre-wrap;
 }
 
+/* form-group*/
 .form-group {
     color:#ffffff;
     font-style: oblique;
 }
 
+ /* btn */
 .btn {
  margin-bottom: 1rem;
 }
+
+.btn  {
+    color: rgb(189, 189, 236);
+    font-style: oblique;
+}
+
+/* dropdown*/
+.dropdown-menu {
+    font-style: oblique;
+}
+
+.dropdown-item {
+    white-space: pre-wrap; 
+}
+
+
+ /* card */
+.card-title {
+    color: #57595a;
+    font-style: oblique;
+}
+ .card-text {
+     color: #72cc9b;
+     font-style: oblique;
+ }
 
  /* footer */
 #footer .text-center {
