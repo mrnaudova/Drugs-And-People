@@ -73,6 +73,30 @@ h4.drugs-bg {
     white-space: pre-wrap;
 }
 
+h4.effects {
+    color:#ffffff;
+    font-style: oblique;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+h4.img {
+    color:#ffffff;
+    font-style: oblique;
+    font-size: 21px;
+    text-align: center;
+    padding-top: unset;
+    padding-bottom: 4rem;
+}
+h4.img1 {
+    color:#ffffff;
+    font-style: oblique;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
 /* h5 */
 
 /*h6*/
@@ -137,6 +161,24 @@ h6.anabolic {
      font-style: oblique;
  }
 
+ /* image*/
+
+ .img{
+   width: 100%;
+   padding-bottom: 1.5rem;
+   
+ }
+
+ .img-b{
+     width: 55%;
+     padding-bottom: 1.5rem;
+ }
+
+ 
+ .col-lg-4{
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+ }
  /* footer */
 #footer .text-center {
     color: #57595a;
