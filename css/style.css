@@ -1,47 +1,65 @@
+/* container*/
 .container {
-    background-color:#9ebeac;
+    background-color: #bdcedd;
+    
 }
+
+div.container {
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+}
+ 
 
 h1{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: #57595a;
+    color: #092946;
     font-style: oblique;
+}
+h1.about {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #092946;
+    font-style: oblique;
+    text-align: center;
+
 }
 
 p {
-    color: #ffffff;
+    color: #4b4b4b;
     font-style: oblique;
+    padding-bottom: 2rem;
 }
 
 /*h2*/
 h2 {
-    color: #202020;
+    color: #2e2e2e;
     font-size: 23px;
     font-style:oblique;
 }
 
 h2.inbg {
-    color: #202020;
+    color: #2e2e2e;
     font-size: 23px;
     font-style:oblique;
     padding-top: 2rem;
 }
+
 /*h3*/
 h3 {
-    color: rgb(69, 69, 105);
+    color: rgb(23, 80, 105);
     font-size: 25px;
     font-style: oblique;
     padding-bottom: 1rem;
 }
 h3.wtardrgs {
-    color: rgb(69, 69, 105);
+    color: rgb(23, 80, 105);
     font-size: 25px;
     font-style: oblique;
     padding-bottom: 2rem;
     padding-top:unset ;
 }
-h3.anbl {color: rgb(69, 69, 105);
+h3.anbl {color: rgb(23, 80, 105);
     font-size: 25px;
     font-style: oblique;
     padding-bottom: 3rem;
@@ -55,7 +73,7 @@ h4 {
     text-align: center;
 }
 h4.button-link {
-    color:#ffffff;
+    color:#001a33;
     font-style: oblique;
     font-size: 22px;
     text-align: center;
@@ -97,26 +115,58 @@ h4.img1 {
     padding-bottom: 1rem;
 }
 
+label {
+    color: rgb(23, 80, 105);
+}
+
 /* h5 */
+h5 {
+    color: #022f46 ;
+    font-size: 23px;
+    font-style: oblique;
+   
+}
+
+h5.about {
+    color:#022f46 ;
+    font-size: 23px;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: rgb(234, 250, 91) underline ;
+    padding: 2.5rem;
+}
+
+/* jumbotron*/
+.jumbotron {
+    margin-top: 3rem;
+}
 
 /*h6*/
 h6 {
-    color: #273b2f;
+    color: #21374b;
     font-style: oblique;
     font-size: 19px;
     padding-bottom: 3rem;
 }
 
 h6.anabolic {
-    color: #273b2f;
+    color: #21374b;
     font-style: oblique;
     font-size: 19px;
     padding-bottom: unset;
 }
+h6.about {
+    color: #21374b;
+    font-style: oblique;
+    font-size: 19px;
+    padding-bottom: unset;
+    text-align:left;
+
+}
 /* navbar*/
 
 #navbar-text {
-    color: #57595a;
+    color: #092946;
     font-style:oblique;
 
 }
@@ -131,13 +181,18 @@ h6.anabolic {
     font-style: oblique;
 }
 
+#carouselExampleIndicators {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
  /* btn */
 .btn {
  margin-bottom: 1rem;
 }
 
 .btn  {
-    color: rgb(189, 189, 236);
+    color: #aec8e0;
     font-style: oblique;
 }
 
@@ -153,11 +208,11 @@ h6.anabolic {
 
  /* card */
 .card-title {
-    color: #57595a;
+    color: #0d0d0e;
     font-style: oblique;
 }
  .card-text {
-     color: #72cc9b;
+     color: #022f46;
      font-style: oblique;
  }
 
@@ -174,14 +229,13 @@ h6.anabolic {
      padding-bottom: 1.5rem;
  }
 
- 
  .col-lg-4{
      padding-top: 1rem;
      padding-bottom: 1rem;
  }
  /* footer */
 #footer .text-center {
-    color: #57595a;
+    color: #022f46;
     background-color:#f8f9fa ;
     font-style: oblique;
     padding-top: 1rem;

@@ -52,7 +52,7 @@
         <h1>Формуляр за връзка</h1>
         <p></p>
       </div>
-      <form  action="/action_page.php" id="contactForm" class="was-validated">
+      <form id="contactForm" class="was-validated">
       <div class="form-group">
         <label for="name">Име</label>
         <input type="text" name="name" class="form-control" required>
@@ -63,6 +63,7 @@
           Ок.
         </div>
       </div>
+
       <div class="form-group">
           <label for="email">Имейл</label>
           <input type="text" name="email" class="form-control" required>
@@ -72,6 +73,7 @@
           <div class="valid-feedback">
             Ок.
           </div>
+
       </div>
       <div class="form-group">
             <label for="phone">Телефон за връзка</label>
@@ -80,12 +82,12 @@
             name="phone"
             pattern="[0-9]{3} [0-9]{3} [0-9]{4}" 
             class="form-control" required>
+            <div class="valid-feedback">
+              Ок.
+            </div>
             <div class="invalid-feedback">
               Моля, въведете вашият телефонен във формат: ХХХ ХХХ ХХХХ. 
               Пример 088 123 4567.
-            </div>
-            <div class="valid-feedback">
-              Ок.
             </div>
       </div>
       <div class="form-group">
